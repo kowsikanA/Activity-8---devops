@@ -1,8 +1,9 @@
 from flask import Flask, jsonify, request
 
+
 app = Flask(__name__)
 
-# In-memory store for the message
+
 _MESSAGE = {"text": ""}
 
 
